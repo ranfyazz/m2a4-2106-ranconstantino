@@ -5,3 +5,38 @@
 
    Aim for: a Flexbox layout (display: flex), a styled .card component, and
    a colour, a font-family, and some spacing (padding or margin). */
+/* styles.css*/
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   background: color #8b0000;
+}
+
+header,footer{
+   text-align:center;
+   padding: 10px;
+   color:#8b0000;
+}
+nav a {
+   margin: 0 10px;
+   color: #FAFAFA;
+   text-decoration: none;
+}
+
+h1 {  
+   text-align:center;
+   margin-bottom: 20px;
+}
+section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.card {
+   background-color:#f0f0f0;
+   padding:15px;
+   margin:10px;
+   border-radius:8px;
+   width:250px;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
